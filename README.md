@@ -1,11 +1,50 @@
-# Sample Snack app
+Features
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+- **Text-to-Voice Conversion**: Converts extracted text to speech for visually impaired users.
+- **Object Detection**: Identifies and classifies objects in images using a CNN model.
+- **OCR Integration**: Extracts text from images to be converted into speech.
+- **Firebase Integration**: Manages user interactions through Firebase with the following components:
+  - **Ask Queries**: Users can submit queries.
+  - **Bug Report**: Users can report bugs encountered in the application.
+  - **Feature Request**: Users can request new features or improvements.
+ 
+- React Native
+- Expo 
+- Python (for running the backend server)
+- Firebase account
+ **Install frontend dependencies:**
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+    ```bash
+    npm install
+    ```
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+ **Set up Firebase:**
+   - Create a Firebase project.
+   - Set up Firestore and create collections for queries, bug reports, and feature requests.
+   - Update `FirebaseConfig.js` with your Firebase project credentials.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+ **Install backend dependencies (if applicable):**
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+    ```bash
+    pip install 
+    ```
+
+
+
+### Running the React Native App
+
+1. Start the Expo development server:
+
+    ```bash
+    npm run start
+    ```
+
+2. Use the Expo app on your mobile device.
+
+### Running the Backend Server
+
+1. Ensure you have the correct dependencies installed and start the server:
+
+    ```bash
+    python server.py
+    ```
