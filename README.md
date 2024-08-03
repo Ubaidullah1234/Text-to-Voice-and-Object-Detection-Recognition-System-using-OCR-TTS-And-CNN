@@ -1,6 +1,6 @@
 Features
 
-- **Text-to-Voice Conversion**: Converts extracted text to speech for visually impaired users.
+- **Text-to-Voice Conversion**: Converts extracted text to speech for visually impaired users. Using Camera or Uploading images
 - **Object Detection**: Identifies and classifies objects in images using a CNN model.
 - **OCR Integration**: Extracts text from images to be converted into speech.
 - **Firebase Integration**: Manages user interactions through Firebase with the following components:
